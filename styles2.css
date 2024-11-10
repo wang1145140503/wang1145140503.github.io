@@ -1,0 +1,48 @@
+/* 类别选择器 */
+.tech-dept{
+	background-color: #e0f7e9
+}
+.marketing-dept{
+	background-color: #e3f2fd
+}
+.hr-dept{
+	background-color: #ffe0b2
+}
+
+/* 限制和不限制的 ID 选择器 */
+#special-employee{
+	border: 2px solid #8e24aa;
+	background-color: #f5f5f5
+}
+
+/* 后代选择器 */
+.tech-dept .employee-card,
+.marketing-dept .employee-card{
+	color: #424242;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+/* 并集选择器 */
+.tech-dept,
+.marketing-dept {
+    font-style: Arial, sans-serif;
+    line-height: 1.5
+}
+
+/* 伪类选择器 */
+.employee-card:hover {
+    background-color: #fff9c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.employee-card:nth-child(odd) {
+    background-color: #f5f5f5
+}
+
+/* 伪类和类别选择器组合 */
+.high-rating:hover {
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: underline
+}
