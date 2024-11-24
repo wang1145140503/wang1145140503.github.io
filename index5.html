@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>王-0301-3班-edge</title>
+	<link rel="stylesheet" href="./styles2.css">
+	<script src="./script.js" defer></script> <!-- 引入原有的 JavaScript 文件 -->
+	<script src="./clock.js" defer></script> <!-- 引入时钟功能的 JavaScript 文件 -->
+	<script src="./screeninfo.js" defer></script> <!-- 引入屏幕信息的 JavaScript 文件 -->
+	<script src="./mouseEvent.js" defer></script> <!-- 引入鼠标坐标的 JavaScript 文件 -->
+	<script src="./lastModified.js" defer></script> <!-- 引入网页最后修改时间的 JavaScript 文件 -->
+</head>
+
+<body>
+	<div class="tech-dept">
+		<h2>技术部</h2>
+		<div class="employee-card high-rating">张三 - 技术经理 - 评分：4.6</div>
+		<div class="employee-card high-rating" id="special-employee">李四 - 软件工程师 - 评分：4.8</div>
+		<div class="employee-card">王五 - 技术顾问 - 评分：4.3</div>
+	</div>
+	<div class="marketing-dept">
+		<h2>市场部</h2>
+		<div class="employee-card">赵六 - 市场总监 - 评分：4.4</div>
+		<div class="employee-card high-rating">钱七 - 市场专员 - 评分：4.7</div>
+	</div>
+	<div class="hr-dept">
+		<h2>人事部</h2>
+		<div class="employee-card">周八 - 招聘专员 - 评分：4.5</div>
+		<div class="employee-card high-rating">吴九 - 人事经理 - 评分：4.6</div>
+	</div>
+
+  <!-- 时钟显示 -->
+  <div id="clock" style="font-size: 2rem; margin-top: 20px;">时钟加载中...</div>
+  
+  <!-- 屏幕信息显示 -->
+  <div id="screen-info" style="font-size: 1rem; margin-top: 20px;">屏幕信息加载中...</div>
+  
+  <!-- 鼠标按下坐标显示 -->
+  <div id="mouse-coordinates" style="font-size: 1rem; margin-top: 20px;">鼠标坐标加载中...</div>
+  
+  <!-- 显示网页最后修改时间 -->
+  <div id="last-modified" style="font-size: 1rem; margin-top: 20px;">网页最后修改时间加载中...</div>
+</body>
+</html>
