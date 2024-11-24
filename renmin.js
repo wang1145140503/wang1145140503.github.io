@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   // 获取所有人物项
-  const personItems = document.querySelectorAll(".person-item");
+  const personItems = document.querySelectorAll(".employee-card");
 
   // 统一事件处理函数
   personItems.forEach(function(item) {
